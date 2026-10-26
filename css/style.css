@@ -1,0 +1,71 @@
+/* About Page Layout */
+.about-page main {
+    max-width: 1000px;
+    margin: auto;
+    padding: 20px;
+}
+
+/* Our Story Section */
+.about-page .our-story,
+.about-page .our-music {
+    text-align: left;
+    margin-bottom: 40px;
+}
+
+/* Meet the Band Heading */
+.about-page .meet-band h2 {
+    text-align: center;
+}
+
+/* Meet the Band Introduction */
+.about-page .band-intro {
+    max-width: 700px;
+    margin: 0 auto 30px;
+    text-align: center;
+    line-height: 1.6;
+}
+
+/* Band Member Sections */
+/* Band Member Bio Cards */
+.about-page .band-member {
+    overflow: auto;
+    padding: 25px;
+    margin-bottom: 30px;
+    border-radius: 15px;
+    box-shadow: 4px 4px 10px #cccccc;
+}
+
+/* Band Member Photos */
+.about-page .member-photo {
+    width: 160px;
+    height: auto;
+    border-radius: 10px;
+}
+
+/* Float Photos Left */
+.about-page .photo-left {
+    float: left;
+    margin-right: 25px;
+}
+
+/* Float Photos Right */
+.about-page .photo-right {
+    float: right;
+    margin-left: 25px;
+}
+
+/* Band Member Bios */
+.about-page .member-bio {
+    line-height: 1.6;
+}
+
+/* Mobile Layout */
+@media screen and (max-width: 600px) {
+
+    .about-page .member-photo {
+        float: none;
+        display: block;
+        margin: 0 auto 15px;
+        max-width: 100%;
+    }
+}
