@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="Author" content="Amadou Ba">
+    <meta name="Date" content="2026-10-30">
+    <meta name="Date revised" content="2026-10-30">
+    <meta name="Description" content="Web page for The Real Ozone Rangers">
+    <title>Home Page - The Real Ozone Rangers</title>
+    <link rel="stylesheet" href="css/style.css">
+
+    <!-- index.html
+        Author:     Amadou Ba
+        Date:       2026-10-30
+        Date revised:   2026-10-30
+        Description:    Web page for The Real Ozone Rangers
+    -->
+</head>
+<body>
+
+    <!-- HEADER + NAVIGATION (same on every page) -->
+    <header class="site-header">
+        <div class="container header-inner">
+            <a class="site-title" href="index.html">The Real Ozone Rangers</a>
+            <nav aria-label="Main navigation">
+                <ul class="nav-list">
+                    <li><a href="index.html" aria-current="page">Home</a></li>
+                    <li><a href="about.html">About / Our Story</a></li>
+                    <li><a href="performances.html">Performances / Gallery</a></li>
+                    <li><a href="contact.html">Contact / Booking</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main id="main">
+
+        <!-- Band and their tagline -->
+        <section class="hero" aria-labelledby="hero-heading">
+            <div class="container">
+                <figure class="hero-figure">
+                    <img src="images/band-silhouette.jpg"
+                         alt="White silhouettes of the six band members playing guitars and banjo on a wooden stage"
+                         width="1120" height="800">
+                </figure>
+                <div class="hero-text">
+                    <h1 id="hero-heading">The Real Ozone Rangers</h1>
+                    <p class="tagline">&ldquo;Always welcome, never invited.&rdquo;</p>
+                    <p class="hero-sub">Making live music in the Tri-Cities since 1975.</p>
+                    <div class="button-row">
+                        <a class="button button-primary" href="performances.html">See Upcoming Shows</a>
+                        <a class="button button-secondary" href="contact.html">Book the Band</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Brief band introduction -->
+        <section class="intro" aria-labelledby="intro-heading">
+            <div class="container intro-grid">
+                <div class="intro-text">
+                    <h2 id="intro-heading">Welcome to the Front Porch</h2>
+                    <p>
+                        The Real Ozone Rangers have been playing music in the Tri-Cities since 1975.
+                        For more than 50 years, the band has brought live music to local audiences
+                        at community events, festivals, farmers' markets, private gatherings, and
+                        other venues throughout the region.
+                    </p>
+                    <p>
+                        Our sets mix classic rock and Americana with songs from artists such as the
+                        Grateful Dead, The Beatles, Violent Femmes, and John Prine, along with other
+                        covers and original music.
+                    </p>
+                    <a class="text-link" href="about.html">Read our story and meet the band &rarr;</a>
+                </div>
+                <figure class="intro-photo">
+                    <img src="images/terry.jpg"
+                         alt="Band member Terry smiling and holding an acoustic guitar"
+                         width="200" height="230">
+                    <figcaption>Terry, one of the Rangers</figcaption>
+                </figure>
+            </div>
+        </section>
+
+        <!-- UPCOMING PERFORMANCES  -->
+        <!-- NOTE: We need to replace the dates with the correct ones. -->
+        <section class="shows" aria-labelledby="shows-heading">
+            <div class="container">
+                <h2 id="shows-heading">Upcoming Performances</h2>
+                <p class="section-lead">Come out and hear us play. Here are our next few shows.</p>
+
+                <ul class="show-list">
+                    <li class="show-card">
+                        <p class="show-date">
+                            <span class="month">Nov</span>
+                            <span class="day">00</span>
+                        </p>
+                        <div class="show-info">
+                            <h3>Venue Name</h3>
+                            <p>City, TN &middot; 7:00 PM</p>
+                        </div>
+                    </li>
+                    <li class="show-card">
+                        <p class="show-date">
+                            <span class="month">Dec</span>
+                            <span class="day">00</span>
+                        </p>
+                        <div class="show-info">
+                            <h3>Venue Name</h3>
+                            <p>City, TN &middot; 6:30 PM</p>
+                        </div>
+                    </li>
+                    <li class="show-card">
+                        <p class="show-date">
+                            <span class="month">Jan</span>
+                            <span class="day">00</span>
+                        </p>
+                        <div class="show-info">
+                            <h3>Venue Name</h3>
+                            <p>City, TN &middot; 8:00 PM</p>
+                        </div>
+                    </li>
+                </ul>
+
+                <p class="center">
+                    <a class="button button-primary" href="performances.html">View All Performances &amp; Photos</a>
+                </p>
+            </div>
+        </section>
+
+        <!-- BOOKING button -->
+        <section class="booking" aria-labelledby="booking-heading">
+            <div class="container booking-inner">
+                <h2 id="booking-heading">Planning an Event?</h2>
+                <p>
+                    We play festivals, farmers' markets, birthdays, and community gatherings
+                    across the Tri-Cities.
+                </p>
+                <a class="button button-dark" href="contact.html">Ask About Booking</a>
+            </div>
+        </section>
+
+    </main>
+
+    <!-- This is the FOOTER. It needs to be the same on every page -->
+    <footer class="site-footer">
+        <div class="container footer-inner">
+            <p class="footer-title">The Real Ozone Rangers</p>
+            <nav aria-label="Footer navigation">
+                <ul class="footer-nav">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About / Our Story</a></li>
+                    <li><a href="performances.html">Performances / Gallery</a></li>
+                    <li><a href="contact.html">Contact / Booking</a></li>
+                </ul>
+            </nav>
+        </div>
+    </footer>
+
+</body>
+</html>
