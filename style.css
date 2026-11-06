@@ -1,0 +1,161 @@
+/*
+    Author:     Kade Lemmon
+    Date:       2026-11-05
+    Date revised:   2026-11-05
+    Description:    Web page for The Real Ozone Rangers - CSS
+*/
+/* Color Palette Settings */ 
+:root { --cream: #f7f1e1; 
+    --sand: #eadaa7; 
+    --amber: #ebbc28; 
+    --orange: #e5851e; 
+    --burnt: #b84f12; 
+    --wood: #5a3214; 
+    --ink: #2b1a0c; 
+    --white: #ffffff; 
+} 
+
+/* Global Reset & Body Background */ 
+body { 
+    background-color: var(--cream); 
+    color: var(--ink); 
+    font-family: Arial, sans-serif; 
+    margin: 0; 
+    padding: 0; 
+} 
+
+/* Layout Container */ 
+.container { 
+    max-width: 1000px; 
+    margin: 40px auto; 
+    padding: 0 20px; 
+} 
+
+/* Header Section */ 
+.hero-section { 
+    text-align: center; 
+    padding: 60px 20px; 
+    background-color: var(--ink); 
+    color: var(--cream); 
+    border-bottom: 5px solid var(--orange); 
+} 
+
+.hero-section h1 { 
+    color: var(--amber); 
+    margin-bottom: 10px; 
+} 
+
+h2 { 
+    border-bottom: 3px solid var(--burnt); 
+    padding-bottom: 10px; 
+    color: var(--wood); 
+} 
+
+/* Show List Container */ 
+.show-list { 
+    display: flex; 
+    flex-direction: column; 
+    gap: 15px; 
+    margin-top: 20px; 
+} 
+
+/* Individual Show Row */ 
+.show-card { 
+    display: flex; 
+    align-items: center; 
+    justify-content: space-between; 
+    background: var(--white); 
+    padding: 20px; 
+    border-radius: 8px; 
+    border-left: 6px solid var(--orange); 
+    box-shadow: 0 4px 6px rgba(90, 50, 20, 0.08); /* Soft wood-colored shadow */ 
+} 
+
+/* Date Block Box */ 
+.show-date { 
+    display: flex; 
+    flex-direction: column; 
+    align-items: center; 
+    background: var(--wood); 
+    color: var(--white); 
+    padding: 10px; 
+    min-width: 65px; 
+    border-radius: 6px; 
+    font-weight: bold; 
+} 
+
+.show-date .month { 
+    font-size: 0.8rem; 
+    color: var(--sand); 
+    letter-spacing: 1px; 
+} 
+
+.show-date .day { 
+    font-size: 1.5rem; 
+    color: var(--amber); 
+} 
+
+/* Text Content Fields */ 
+
+.show-details { 
+    flex-grow: 1; 
+    padding: 0 30px; 
+} 
+.show-details h3 { 
+    margin: 0 0 5px 0; 
+    font-size: 1.3rem; 
+    color: var(--ink); 
+} 
+
+.show-details p { 
+    margin: 2px 0; 
+    color: var(--wood); 
+    font-size: 0.95rem; 
+} 
+
+/* Call to Action Tickets Button */ 
+.btn-ticket { 
+    background-color: var(--burnt); 
+    color: var(--white); 
+    padding: 12px 24px; 
+    text-decoration: none; 
+    border-radius: 4px; 
+    font-weight: bold; 
+    transition: background 0.2s, transform 0.1s; 
+} 
+
+.btn-ticket:hover { 
+    background-color: var(--orange); 
+} 
+
+/* Sold Out State Styling */ 
+.show-card.sold-out { 
+    border-left-color: var(--sand); 
+    background-color: rgba(234, 218, 167, 0.2); /* Transparent sand tint */ 
+    opacity: 0.7; 
+} 
+.badge-sold-out { 
+    background: var(--sand); 
+    color: var(--wood); 
+    padding: 12px 24px; 
+    border-radius: 4px; 
+    font-weight: bold; 
+} 
+
+/* Footer Section */ 
+footer { 
+    text-align: center; 
+    padding: 30px; 
+    background-color: var(--ink); 
+    color: var(--sand); 
+    margin-top: 60px; 
+} 
+
+/* Mobile Responsiveness */ 
+@media(max-width: 600px) { 
+    .show-card { flex-direction: column;
+         text-align: center; 
+         gap: 15px; 
+        } 
+        .show-details { 
+            padding: 0; } }
