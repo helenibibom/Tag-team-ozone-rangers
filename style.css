@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="Author" content="Amadou Ba">
+    <meta name="Date" content="2026-10-30">
+    <meta name="Date revised" content="2026-10-30">
+    <meta name="Description" content="Web page for The Real Ozone Rangers">
+    <title>Home Page - The Real Ozone Rangers</title>
+    <link rel="stylesheet" href="css/style.css">
+
+/*
+    Author:     Kade Lemmon
+    Date:       2026-11-05
+    Date revised:   2026-11-05
+    Description:    Web page for The Real Ozone Rangers - CSS
+*/
+    
+    <!-- Header Section --> 
+    <header class="hero-section"> 
+        <h1>Live Performances</h1> 
+        <p>Catch us live on stage! Check out our upcoming tour dates below.</p>
+     </header> 
+     
+     <!-- Main Content Area --> 
+      <main class="container"> 
+        
+        <!-- Upcoming Shows Section --> 
+         <section class="shows-section"> 
+            <h2>Upcoming Shows</h2> 
+            <div class="show-list"> 
+                
+                <!-- Show Item 1 --> 
+                 <div class="show-card"> 
+                    <div class="show-date"> 
+                        <spanclass="month">DEC</span> 
+                        <span class="day">12</span> 
+                    </div> <div class="show-details"> 
+                        <h3>The Jackson Theatre</h3> 
+                        <p class="location">Jonesborough, TN</p> 
+                        <p class="time">Doors at 7:00PM </p> 
+                    </div> <div class="show-action"> 
+                        <a href="#" class="btn-ticket">Buy Tickets</a> 
+                    </div> </div> <!-- Show Item 2 --> 
+                    <div class="show-card"> 
+                        <div class="show-date"> 
+                            <spanclass="month">JAN</span> 
+                            <span class="day">18</span> 
+                        </div> <div class="show-details"> 
+                            <h3>The Down Home</h3> 
+                            <p class="location">Johnson City, TN</p> 
+                            <p class="time"> Doors at 7-10 P.M. </p> 
+                        </div> 
+                        <div class="show-action"> 
+                            <a href="#" class="btn-ticket">Buy Tickets</a> 
+                        </div> 
+                    </div> 
+                    
+                    <!-- Show Item 3 (Sold Out Example) --> 
+                    <div class="show-card"> 
+                        <div class="show-date"> 
+                            <spanclass="month">FEB</span> 
+                            <span class="day">05</span> 
+                        </div> <div class="show-details"> 
+                            <h3>Farmers Market</h3> 
+                            <p class="location">Jonesborough, TN</p> 
+                            <p class="time"> Doors at 3:00 P.M. </p> 
+                        </div> 
+                        <div class="show-action"> 
+                            <a href="#" class="btn-ticket">Buy Tickets</a> 
+                        </div> 
+                    </div> 
+            </section> 
+        
+        </main> 
+        <footer> 
+            <p>&copy; 2026 The Real Ozone Rangers. All rights reserved.</p> 
+        </footer> 
+
+    </body> 
+    </html>
